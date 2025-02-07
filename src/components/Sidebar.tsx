@@ -3,8 +3,10 @@ import { SidebarItem } from "./";
 import Image from "next/image";
 import Link from "next/link";
 import {
+  IoBasketOutline,
   IoCalendarOutline,
   IoCheckboxOutline,
+  IoCodeWorking,
   IoListOutline,
 } from "react-icons/io5";
 
@@ -23,6 +25,16 @@ const menuItem = [
     icon: <IoListOutline />,
     title: "Server Actions",
     path: "/dashboard/server-todos",
+  },
+  {
+    icon: <IoCodeWorking />,
+    title: "Cookies",
+    path: "/dashboard/cookies",
+  },
+  {
+    icon: <IoBasketOutline />,
+    title: "Products",
+    path: "/dashboard/products",
   },
 ];
 
